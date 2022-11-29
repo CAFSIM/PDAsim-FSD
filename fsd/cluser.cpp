@@ -185,7 +185,7 @@ void cluser::execaa(char **s, int count)
    int req=atoi(s[5]);
    if (req<0) req=0;
    int level=checklogin(s[3], s[4], req);
-   if (level==0)
+   if (level==0 | level==1)
    {
       showerror(ERR_CSSUSPEND, "");
       kill(KILL_COMMAND);
