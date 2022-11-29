@@ -19,8 +19,8 @@
 	#define CLOSESOCKET(a) close(a) 
 #endif
 
-#define PRODUCT "FSFDT Windows FSD Beta from FSD V3.000 draft 9"
-#define VERSION "V3.000 d9"
+#define PRODUCT "PDAsim Flight Server V3.000 d10"
+#define VERSION "V3.000 d10"
 #define NEEDREVISION 9
 
 /*
@@ -43,11 +43,11 @@
 #define MAXHOPS 10
 #define GUARDRETRY 120
 #define CALLSIGNBYTES 12
-#define MAXLINELENGTH 512
-#define MAXMETARDOWNLOADTIME 900
-#define CERTFILECHECK 120
+#define MAXLINELENGTH 1026
+#define MAXMETARDOWNLOADTIME 1600
+#define CERTFILECHECK 30
 
-#define WHAZZUPCHECK 30
+#define WHAZZUPCHECK 5
 #define CONNECTDELAY 20
 
 #define LEV_SUSPENDED           0
